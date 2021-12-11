@@ -29,7 +29,7 @@ header {
     margin-bottom: 60px;
 }
 
-.headitems .logo {
+header .logo {
     flex-shrink: 0;
     margin-left: 2px;
 }
@@ -55,16 +55,63 @@ header section {
     gap: 50px;
 }
 
-.headitems .info {
+header.info {
     flex-grow: 1;
     flex-shrink: 2;
 } 
 
-.headitems img {
+header img {
     flex-grow: 2;
     flex-shrink: 1;
-    width: 500px;
-    height: 200px;
+    width: 1000px;
+    height: 300px;
     box-sizing: border-box;
     border: 1px solid #eee;
+}
+
+.rinfo, .qinfo, .singupinfo {
+    display: flex;
+    justify-content: center;
+}
+
+.centeritems {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    flex-basis: auto;
+}
+
+.rinfo .centeritems {
+    flex-direction: column;
+    gap: 20px
+}
+
+.rinfo .centeritems h2 {
+    align-self: center;
+}
+
+.items {
+    display: flex;
+    gap:30px;
+}
+
+
+.items img {
+    border: 1px solid #eee;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.qinfo .centeritems {
+    display: flex;
+    flex-direction: column;
+}
+
+.qinfo .author {
+    align-self: flex-end;
 }
