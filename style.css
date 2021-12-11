@@ -24,8 +24,14 @@ header {
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.headitems .logo {
+    flex-shrink: 0;
+    margin-left: 2px;
 }
 
 nav {
@@ -46,4 +52,19 @@ nav ul {
 
 header section {
     display: flex;
+    gap: 50px;
+}
+
+.headitems .info {
+    flex-grow: 1;
+    flex-shrink: 2;
+} 
+
+.headitems img {
+    flex-grow: 2;
+    flex-shrink: 1;
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
 }
