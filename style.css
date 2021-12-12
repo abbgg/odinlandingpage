@@ -124,7 +124,8 @@ header img {
 
 
 .items img {
-    border: 1px solid rgb(71, 107, 185);
+    border: 2px solid rgb(71, 107, 185);
+    border-radius: 10px;
 }
 
 .item {
